@@ -16,13 +16,12 @@ namespace comiquemleu
             if (int.TryParse(input, out numero)) 
             {
                 Console.WriteLine("O número digitado foi: " + numero);
-                Console.ReadKey(true);
             } 
             else 
             {
                 Console.WriteLine("Erro! Número digitado inválido. Aperte alguma tecla para sair . . .");
-                Console.ReadKey(true);
             }
+            Console.ReadKey(true);
         }
     }
 }
