@@ -1,0 +1,37 @@
+using System;
+
+namespace comiquemleu
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+           	Console.WriteLine("Digite 'sim' para verdadeiro ou 'não' para falso:");
+           	
+            // Ler a entrada do usuário como uma string.
+            string input = Console.ReadLine().Trim().ToLower();
+            
+            bool resposta;
+            
+            if (input == "sim")	
+            { 
+            	resposta = true;
+            }
+            
+            else if (input == "não" || input == "nao")
+            {
+            	resposta = false
+         	}
+            
+            else
+            {
+            	Console.WriteLine("Entrada inválida! Digite apenas 'sim' ou 'não'.");
+            	Console.ReadKey(true);
+            }
+             Console.WriteLine("O valor booleano armazenado é: " + resposta);
+         } 
+        
+        Console.WriteLine("\nPressione qualquer tecla para sair...");
+        Console.ReadKey(true);
+    }
+}
