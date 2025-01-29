@@ -18,10 +18,8 @@ class Program
         }
         else
         {
- 
-            Console.WriteLine("Resposta inválida! Por favor, digite 'sim' ou 'não'.");
-         
+        Console.WriteLine("Resposta inválida! Por favor, digite 'sim' ou 'não'."); 
         }
-        Console.ReadKey
+        Console.ReadKey(true);
     }
 }
