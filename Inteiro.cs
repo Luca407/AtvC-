@@ -1,7 +1,5 @@
 using System;
 
-namespace comiquemleu
-{
     class Program
     {
         public static void Main(string[] args)
@@ -24,4 +22,3 @@ namespace comiquemleu
             Console.ReadKey(true);
         }
     }
-}
