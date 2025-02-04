@@ -1,7 +1,5 @@
 using System;
 
-namespace EntradaDeCaractere
-{
 	class Program
 	{
 		public static void Main(string[] args)
@@ -18,4 +16,3 @@ namespace EntradaDeCaractere
             Console.ReadKey(true);
 		}
 	}
-}
